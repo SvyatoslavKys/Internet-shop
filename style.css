@@ -1,0 +1,202 @@
+/* ------------------------------utulite------------------------- */
+ul, p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+    user-select: none;
+}
+button img{
+    user-select: none;
+
+}
+body{
+    font-family: 'Circe', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.12;
+    background: #F7F8F9;    
+}
+.container{
+    width: 1340px;
+    margin: 0 auto;
+    border: 2px solid tomato;
+}
+li, a{
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+}
+/* ---------------------------header----------------------------- */
+/* .header{
+    background: #F7F8F9;    
+} */
+.upper-box{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.upper-box>ul{
+    display: flex;
+}
+.lower-box{
+    display: flex;
+}
+.lower-box>ul{
+    display: flex;
+}
+.Logo-svg{
+    margin-right: 40px;
+}
+.city{
+    margin-right: 56px;
+}
+.upper-box>ul{
+    margin-left: auto;
+}
+.upper-box>ul>li{
+    margin-left: 24px;
+}
+.lang-change{
+    margin-left: 40px;
+}
+.phone-number{
+    font-family: 'Circe', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #222D4A;
+}
+.city>h3{
+    font-family: 'Circe', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+.city>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    text-align: left;
+}
+.link-nav>li>a{   
+    font-family: 'Circe', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: #222D4A;
+}
+.promotion-red{
+    font-family: 'Circe', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: #FD3321 !important;
+}
+
+/* ---------------------------lower-box--------------------------- */
+.search-section{
+    background: #FFFFFF;
+}
+.input-search{
+    position: relative;
+    margin-right: 40px;
+}
+.lower-box{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    box-shadow: 0 4px 4px rgba(34, 45, 74, .1);
+}
+.input-search>img{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+.input-search>input{
+    width: 700px;
+}
+.lower-box>button{
+    display: flex;
+    align-items: center;
+
+    background: #00B2F2;
+    margin-right: 12px;
+    padding: 10px 24px;
+    border-radius: 45px;
+    border: none;
+    color: white;
+}
+.lower-box>a{
+    font-family: 'Circe', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: right;
+    color: #222D4A;
+
+}
+.lower-box>button>img{
+    margin-right: 8px;
+}
+.lower-box>p{
+    margin-left: 16px;
+}
+.entrance{
+    margin-left: 16px;
+    margin-right: 40px;
+}
+.lower-box>ul{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.input-search>input{
+    padding: 10px 24px;
+    border-radius: 45px;
+}
+/* -----------------------------hero------------------------------ */
+.hero{
+    margin-top: 16px;
+    padding: 20px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.hero>ul{
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.svgbg{
+    width: 48px;
+    height: 48px;
+    background: red;
+}
+.bttn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+
+}
+.bttn-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    
+}
+.description{
+    padding: 112px 48px 112px 98px;
+}
