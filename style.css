@@ -1107,3 +1107,132 @@ input[type="radio"]:checked + label + .content {
     display: flex;
     gap: 12px;
 }
+/* ---------------------modal----------------------- */
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    
+}
+.beckdrop{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191c2688;
+    transition: 300ms;
+   
+}
+.modal{
+    position: absolute;
+    width: 380px;
+    height: 800px;
+    top: 5%;
+    left: 5%;
+    background: #FFFFFF;
+    padding: 28px 0 28px 50px; 
+}
+.modal-close{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+.modal-close>svg{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    
+}
+.modal-close>svg:hover{
+    transform: rotate(180deg);
+}
+.modal>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.modal>ul>li{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: relative;
+}
+.modal>ul>li>a{
+    /* display: inline-block;
+    height: 24px; */
+    font-family: 'Circe', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: left;
+    color: #222D4A;
+    cursor: pointer;
+    /* padding: 0 180px 0 0; */
+    
+}
+
+.modal>ul>li>a:hover{
+    color: #00B2F2;
+    text-decoration: underline;
+}
+
+.drop-down-menu{
+    position: absolute;
+    left: 331px;
+    top: -68px;
+    width: 1068px;
+    height: 799px;
+    background: white;
+    padding: 32px 24px;
+    display: none;
+}
+.modal li:hover .drop-down-menu{
+    display: block;
+}
+
+
+
+.upper-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.upper-container>a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #00B2F2;
+}
+.upper-container>ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.category-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+.category-menu>li{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+.category-menu>li>a{
+    font-family: 'Circe', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    text-align: center;
+    color: #222D4A;
+}
+.category-menu>li>a:hover{
+    color: #00B2F2;
+}
